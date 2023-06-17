@@ -1,7 +1,20 @@
-function add(){
+function calculateBmi(){
+
+let height = document.getElementById('height').value;
+let weight = document.getElementById('weight').value;
+let bmi = (weight/ (height**2) *703);
+
+document.getElementById('heading').innerHTML = 'Youre BMI is :';
+document.getElementById('bmi-output').innerHTML = bmi;
 
 
 }
+
+
+
+
+
+
 
 var hotel = {
     name:  "Atlantic",
